@@ -46,7 +46,6 @@ Papers that utilize Transformer models to analyze single-cell genomic data.
 | Enformer        | Žiga Avsec et al., 2021 |         | Transformer with attention layers | To improve gene expression prediction from DNA sequences by integrating long-range interactions, leveraging transformer architecture for better accuracy. | 254k | 2 | Poisson negative log-likelihood loss | Gene expression prediction; Variant effect prediction; Epigenetic state prediction |
 
 
-
 ### Benchmarking Papers
 | 📄 Paper                                          | 💻 Code              | 🧠 Benchmarking Models           | 🌟 Main Focus                          | 📝 Results & Insights |
 |---------------------------------------------------|----------------------|----------------------------------|----------------------------------------|-----------------------|
