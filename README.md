@@ -12,7 +12,7 @@ A curated repository of academic papers showcasing the use of transformer models
 ## Single-Cell Genomics (SCG) Models
 Papers that utilize transformer models to analyze single-cell genomic data.
 
-### New Methods Papers
+### Newly Introduced Methods
 
 ### Benchmarking Papers
 
@@ -21,6 +21,12 @@ Papers that utilize transformer models to analyze single-cell genomic data.
 
 ## DNA Models
 Papers focused on the application of transformer models in DNA sequence analysis.
+
+### Newly Introduced Methods
+
+### Benchmarking Papers
+
+### Review/Perspective Papers
 
 ## Spatial Transcriptomics (ST) Models
 Papers applying transformer models to spatial transcriptomics data.
