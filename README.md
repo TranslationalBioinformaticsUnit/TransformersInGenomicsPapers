@@ -33,15 +33,14 @@ Papers that utilize Transformer models to analyze single-cell genomic data.
 
 
 ### Benchmarking Papers
-| 🧠 Model               | 📄 Paper                                          | 💻 Code              | 🛠️ Architecture           | 🌟 Highlights/Main Focus                          | 🧬 No. of Cells | 📊 No. of Datasets | 🎯 Loss Function(s)       | 📝 Downstream Tasks/Evaluations        |
-|------------------------|---------------------------------------------------|----------------------|---------------------------|--------------------------------------------------|-----------------|-------------------|--------------------------|---------------------------------------|
-| SCG Transformer        | [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Transformer               | Improved cell type classification               | 10,000          | 5                 | Cross-Entropy            | Cell type classification, DE analysis |
+| 📄 Paper                                          | 💻 Code              | 🧠 Benchmarking Models           | 🌟 Main Focus                          | 📝 Results & Insights |
+|---------------------------------------------------|----------------------|----------------------------------|----------------------------------------|-----------------------|
+| [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | [Benchmarking transformer models](#) | Improved cell type classification    | Standardized metrics |
 
 ### Review/Perspective Papers
-| 🧠 Model               | 📄 Paper                                          | 💻 Code              | 🛠️ Architecture           | 🌟 Highlights/Main Focus                          | 🧬 No. of Cells | 📊 No. of Datasets | 🎯 Loss Function(s)       | 📝 Downstream Tasks/Evaluations        |
-|------------------------|---------------------------------------------------|----------------------|---------------------------|--------------------------------------------------|-----------------|-------------------|--------------------------|---------------------------------------|
-| SCG Transformer        | [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Transformer               | Improved cell type classification               | 10,000          | 5                 | Cross-Entropy            | Cell type classification, DE analysis |
-
+| 📄 Paper                                          | 💻 Code              | 🌟 Highlights/Main Focus                          | 📝 Remarks & Conclusion                |
+|---------------------------------------------------|----------------------|--------------------------------------------------|---------------------------------------|
+| [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Improved cell type classification               | The paper demonstrates the effectiveness of transformer models in analyzing single-cell genomic data. It highlights significant improvements in cell type classification, making it a valuable tool for single-cell studies. The conclusion emphasizes the potential impact of transformer-based approaches in advancing our understanding of cellular heterogeneity and gene expression regulation. |
 
 ## DNA Models
 Papers focused on the application of Transformer models in DNA sequence analysis.
@@ -52,14 +51,14 @@ Papers focused on the application of Transformer models in DNA sequence analysis
 | DNA Transformer        | [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Transformer               | Improved cell type classification               | 10,000          | 5                 | Cross-Entropy            | Cell type classification, DE analysis |
 
 ### Benchmarking Papers
-| 🧠 Model               | 📄 Paper                                          | 💻 Code              | 🛠️ Architecture           | 🌟 Highlights/Main Focus                          | 🧬 No. of Cells | 📊 No. of Datasets | 🎯 Loss Function(s)       | 📝 Downstream Tasks/Evaluations        |
-|------------------------|---------------------------------------------------|----------------------|---------------------------|--------------------------------------------------|-----------------|-------------------|--------------------------|---------------------------------------|
-| DNA Transformer        | [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Transformer               | Improved cell type classification               | 10,000          | 5                 | Cross-Entropy            | Cell type classification, DE analysis |
+| 📄 Paper                                          | 💻 Code              | 🧠 Benchmarking Models           | 🌟 Main Focus                          | 📝 Results & Insights |
+|---------------------------------------------------|----------------------|----------------------------------|----------------------------------------|-----------------------|
+| [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | [Benchmarking transformer models](#) | Improved cell type classification    | Standardized metrics |
 
 ### Review/Perspective Papers
-| 🧠 Model               | 📄 Paper                                          | 💻 Code              | 🛠️ Architecture           | 🌟 Highlights/Main Focus                          | 🧬 No. of Cells | 📊 No. of Datasets | 🎯 Loss Function(s)       | 📝 Downstream Tasks/Evaluations        |
-|------------------------|---------------------------------------------------|----------------------|---------------------------|--------------------------------------------------|-----------------|-------------------|--------------------------|---------------------------------------|
-| DNA Transformer        | [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Transformer               | Improved cell type classification               | 10,000          | 5                 | Cross-Entropy            | Cell type classification, DE analysis |
+| 📄 Paper                                          | 💻 Code              | 🌟 Highlights/Main Focus                          | 📝 Remarks & Conclusion                |
+|---------------------------------------------------|----------------------|--------------------------------------------------|---------------------------------------|
+| [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Improved cell type classification               | The paper demonstrates the effectiveness of transformer models in analyzing single-cell genomic data. It highlights significant improvements in cell type classification, making it a valuable tool for single-cell studies. The conclusion emphasizes the potential impact of transformer-based approaches in advancing our understanding of cellular heterogeneity and gene expression regulation. |
 
 ## Spatial Transcriptomics (ST) Models
 Papers applying Transformer models to spatial transcriptomics data.
@@ -70,14 +69,14 @@ Papers applying Transformer models to spatial transcriptomics data.
 | ST Transformer        | [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Transformer               | Improved cell type classification               | 10,000          | 5                 | Cross-Entropy            | Cell type classification, DE analysis |
 
 ### Benchmarking Papers
-| 🧠 Model               | 📄 Paper                                          | 💻 Code              | 🛠️ Architecture           | 🌟 Highlights/Main Focus                          | 🧬 No. of Cells | 📊 No. of Datasets | 🎯 Loss Function(s)       | 📝 Downstream Tasks/Evaluations        |
-|------------------------|---------------------------------------------------|----------------------|---------------------------|--------------------------------------------------|-----------------|-------------------|--------------------------|---------------------------------------|
-| ST Transformer        | [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Transformer               | Improved cell type classification               | 10,000          | 5                 | Cross-Entropy            | Cell type classification, DE analysis |
+| 📄 Paper                                          | 💻 Code              | 🧠 Benchmarking Models           | 🌟 Main Focus                          | 📝 Results & Insights |
+|---------------------------------------------------|----------------------|----------------------------------|----------------------------------------|-----------------------|
+| [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | [Benchmarking transformer models](#) | Improved cell type classification    | Standardized metrics |
 
 ### Review/Perspective Papers
-| 🧠 Model               | 📄 Paper                                          | 💻 Code              | 🛠️ Architecture           | 🌟 Highlights/Main Focus                          | 🧬 No. of Cells | 📊 No. of Datasets | 🎯 Loss Function(s)       | 📝 Downstream Tasks/Evaluations        |
-|------------------------|---------------------------------------------------|----------------------|---------------------------|--------------------------------------------------|-----------------|-------------------|--------------------------|---------------------------------------|
-| ST Transformer        | [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Transformer               | Improved cell type classification               | 10,000          | 5                 | Cross-Entropy            | Cell type classification, DE analysis |
+| 📄 Paper                                          | 💻 Code              | 🌟 Highlights/Main Focus                          | 📝 Remarks & Conclusion                |
+|---------------------------------------------------|----------------------|--------------------------------------------------|---------------------------------------|
+| [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Improved cell type classification               | The paper demonstrates the effectiveness of transformer models in analyzing single-cell genomic data. It highlights significant improvements in cell type classification, making it a valuable tool for single-cell studies. The conclusion emphasizes the potential impact of transformer-based approaches in advancing our understanding of cellular heterogeneity and gene expression regulation. |
 
 ## Hybrids of SCG, DNA, and ST Models
 Papers that combine approaches and modalities from SCG, DNA, and ST using Transformers.
@@ -88,13 +87,13 @@ Papers that combine approaches and modalities from SCG, DNA, and ST using Transf
 | Hybrid Transformer        | [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Transformer               | Improved cell type classification               | 10,000          | 5                 | Cross-Entropy            | Cell type classification, DE analysis |
 
 ### Benchmarking Papers
-| 🧠 Model               | 📄 Paper                                          | 💻 Code              | 🛠️ Architecture           | 🌟 Highlights/Main Focus                          | 🧬 No. of Cells | 📊 No. of Datasets | 🎯 Loss Function(s)       | 📝 Downstream Tasks/Evaluations        |
-|------------------------|---------------------------------------------------|----------------------|---------------------------|--------------------------------------------------|-----------------|-------------------|--------------------------|---------------------------------------|
-| Hybrid Transformer        | [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Transformer               | Improved cell type classification               | 10,000          | 5                 | Cross-Entropy            | Cell type classification, DE analysis |
+| 📄 Paper                                          | 💻 Code              | 🧠 Benchmarking Models           | 🌟 Main Focus                          | 📝 Results & Insights |
+|---------------------------------------------------|----------------------|----------------------------------|----------------------------------------|-----------------------|
+| [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | [Benchmarking transformer models](#) | Improved cell type classification    | Standardized metrics |
 
 ### Review/Perspective Papers
-| 🧠 Model               | 📄 Paper                                          | 💻 Code              | 🛠️ Architecture           | 🌟 Highlights/Main Focus                          | 🧬 No. of Cells | 📊 No. of Datasets | 🎯 Loss Function(s)       | 📝 Downstream Tasks/Evaluations        |
-|------------------------|---------------------------------------------------|----------------------|---------------------------|--------------------------------------------------|-----------------|-------------------|--------------------------|---------------------------------------|
-| Hybrid Transformer        | [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Transformer               | Improved cell type classification               | 10,000          | 5                 | Cross-Entropy            | Cell type classification, DE analysis |
+| 📄 Paper                                          | 💻 Code              | 🌟 Highlights/Main Focus                          | 📝 Remarks & Conclusion                |
+|---------------------------------------------------|----------------------|--------------------------------------------------|---------------------------------------|
+| [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Improved cell type classification               | The paper demonstrates the effectiveness of transformer models in analyzing single-cell genomic data. It highlights significant improvements in cell type classification, making it a valuable tool for single-cell studies. The conclusion emphasizes the potential impact of transformer-based approaches in advancing our understanding of cellular heterogeneity and gene expression regulation. |
 
 
