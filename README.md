@@ -23,7 +23,7 @@ A curated repository of academic papers showcasing the use of Transformer models
    - [Benchmarking Papers](#benchmarking-papers-3)
    - [Review/Perspective Papers](#reviewperspective-papers-3)
 
-**Legend**
+#### Legend
 💡: Pretrained Model
 
 ## Single-Cell Genomics (SCG) Models
