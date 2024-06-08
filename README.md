@@ -1,5 +1,5 @@
 # Transformers In Genomics Papers
-A curated repository of academic papers showcasing the use of transformer models in genomics. This repository aims to guide researchers, data scientists, and enthusiasts in finding relevant literature and understanding the applications of transformers in various genomic contexts.
+A curated repository of academic papers showcasing the use of Transformer models in genomics. This repository aims to guide researchers, data scientists, and enthusiasts in finding relevant literature and understanding the applications of Transformers in various genomic contexts.
 
 ## Table of Contents
 1. [Single-Cell Genomics (SCG) Models](#scg-models)
@@ -10,7 +10,7 @@ A curated repository of academic papers showcasing the use of transformer models
 6. [Review/Perspective Papers](#reviewperspective-papers)
 
 ## Single-Cell Genomics (SCG) Models
-Papers that utilize transformer models to analyze single-cell genomic data.
+Papers that utilize Transformer models to analyze single-cell genomic data.
 
 ### Newly Introduced Methods
 
@@ -20,7 +20,7 @@ Papers that utilize transformer models to analyze single-cell genomic data.
 
 
 ## DNA Models
-Papers focused on the application of transformer models in DNA sequence analysis.
+Papers focused on the application of Transformer models in DNA sequence analysis.
 
 ### Newly Introduced Methods
 
@@ -29,14 +29,14 @@ Papers focused on the application of transformer models in DNA sequence analysis
 ### Review/Perspective Papers
 
 ## Spatial Transcriptomics (ST) Models
-Papers applying transformer models to spatial transcriptomics data.
+Papers applying Transformer models to spatial transcriptomics data.
 
 ## Hybrids of SCG, DNA, and ST Models
-Papers that combine approaches and modalities from SCG, DNA, and ST using transformers.
+Papers that combine approaches and modalities from SCG, DNA, and ST using Transformers.
 
 ## Benchmarking Papers
-Papers that provide benchmarks for evaluating transformer models in genomics.
+Papers that provide benchmarks for evaluating Transformer models in genomics.
 
 ## Review/Perspective Papers
-Papers that provide reviews or perspectives on the use of transformers in genomics.
+Papers that provide reviews or perspectives on the use of Transformers in genomics.
 
