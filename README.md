@@ -4,22 +4,22 @@ A curated repository of academic papers showcasing the use of Transformer models
 ## Table of Contents
 
 1. [Single-Cell Genomics (SCG) Models](#single-cell-genomics-scg-models)
-   - [Newly Introduced Methods](#newly-introduced-methods)
+   - [Original Papers](#original-papers)
    - [Benchmarking Papers](#benchmarking-papers)
    - [Review/Perspective Papers](#reviewperspective-papers)
 
 2. [DNA Models](#dna-models)
-   - [Newly Introduced Methods](#newly-introduced-methods-1)
+   - [Original Papers](#original-papers-1)
    - [Benchmarking Papers](#benchmarking-papers-1)
    - [Review/Perspective Papers](#reviewperspective-papers-1)
 
 3. [Spatial Transcriptomics (ST) Models](#spatial-transcriptomics-st-models)
-   - [Newly Introduced Methods](#newly-introduced-methods-2)
+   - [Original Papers](#original-papers-2)
    - [Benchmarking Papers](#benchmarking-papers-2)
    - [Review/Perspective Papers](#reviewperspective-papers-2)
 
 4. [Hybrids of SCG, DNA, and ST Models](#hybrids-of-scg-dna-and-st-models)
-   - [Newly Introduced Methods](#newly-introduced-methods-3)
+   - [Original Papers](#original-papers-3)
    - [Benchmarking Papers](#benchmarking-papers-3)
    - [Review/Perspective Papers](#reviewperspective-papers-3)
 
