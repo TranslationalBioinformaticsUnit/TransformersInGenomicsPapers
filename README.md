@@ -29,7 +29,7 @@ A curated repository of academic papers showcasing the use of Transformer models
 ## Single-Cell Genomics (SCG) Models
 Papers that utilize Transformer models to analyze single-cell genomic data.
 
-### Newly Introduced Methods
+### Original Papers
 | 🧠 Model        | 📄 Paper           | 💻 Code | 🛠️ Architecture        | 🌟 Highlights/Main Focus                         | 🧬 No. of Cells | 📊 No. of Datasets | 🎯 Loss Function(s)       | 📝 Downstream Tasks/Evaluations        |
 |-----------------|---------------------|---------|--------------------------|-------------------------------------------------|----------------|-------------------|--------------------------|---------------------------------------|
 | scFoundation💡   |  Hao, M., Gong, J., Zeng, X. et al. [Large-scale foundation model on single-cell transcriptomics](https://www.nature.com/articles/s41592-024-02305-7) Nat Methods (2024).         |         | Transformer encoder, Performer decoder | Foundation model for single-cell analysis, built on xTrimoGene architecture with a read-depth-aware (RDA) pretraining across 50 million profiles | 50 million | 7 | Mean square error loss | Cell clustering; Cell type annotation; Perturbation prediction; Drug response prediction |
@@ -79,7 +79,7 @@ Papers that utilize Transformer models to analyze single-cell genomic data.
 ## DNA Models
 Papers focused on the application of Transformer models in DNA sequence analysis.
 
-### Newly Introduced Methods
+### Original Papers
 | 🧠 Model               | 📄 Paper                                          | 💻 Code              | 🛠️ Architecture           | 🌟 Highlights/Main Focus                          | 🧬 No. of Cells | 📊 No. of Datasets | 🎯 Loss Function(s)       | 📝 Downstream Tasks/Evaluations        |
 |------------------------|---------------------------------------------------|----------------------|---------------------------|--------------------------------------------------|-----------------|-------------------|--------------------------|---------------------------------------|
 | DNA Transformer        | [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Transformer               | Improved cell type classification               | 10,000          | 5                 | Cross-Entropy            | Cell type classification, DE analysis |
@@ -97,7 +97,7 @@ Papers focused on the application of Transformer models in DNA sequence analysis
 ## Spatial Transcriptomics (ST) Models
 Papers applying Transformer models to spatial transcriptomics data.
 
-### Newly Introduced Methods
+### Original Papers
 | 🧠 Model               | 📄 Paper                                          | 💻 Code              | 🛠️ Architecture           | 🌟 Highlights/Main Focus                          | 🧬 No. of Cells | 📊 No. of Datasets | 🎯 Loss Function(s)       | 📝 Downstream Tasks/Evaluations        |
 |------------------------|---------------------------------------------------|----------------------|---------------------------|--------------------------------------------------|-----------------|-------------------|--------------------------|---------------------------------------|
 | ST Transformer        | [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Transformer               | Improved cell type classification               | 10,000          | 5                 | Cross-Entropy            | Cell type classification, DE analysis |
@@ -115,7 +115,7 @@ Papers applying Transformer models to spatial transcriptomics data.
 ## Hybrids of SCG, DNA, and ST Models
 Papers that combine approaches and modalities from SCG, DNA, and ST using Transformers.
 
-### Newly Introduced Methods
+### Original Papers
 | 🧠 Model               | 📄 Paper                                          | 💻 Code              | 🛠️ Architecture           | 🌟 Highlights/Main Focus                          | 🧬 No. of Cells | 📊 No. of Datasets | 🎯 Loss Function(s)       | 📝 Downstream Tasks/Evaluations        |
 |------------------------|---------------------------------------------------|----------------------|---------------------------|--------------------------------------------------|-----------------|-------------------|--------------------------|---------------------------------------|
 | Hybrid Transformer        | [Single-cell analysis using transformers](#)      | [GitHub Link](#)     | Transformer               | Improved cell type classification               | 10,000          | 5                 | Cross-Entropy            | Cell type classification, DE analysis |
