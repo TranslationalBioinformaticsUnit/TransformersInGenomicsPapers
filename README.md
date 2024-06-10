@@ -24,8 +24,8 @@ A curated repository of academic papers showcasing the use of Transformer models
    - [Review/Perspective Papers](#reviewperspective-papers-3)
 
 #### Legend
-💡: Pretrained Model
-🔍: Peer-reviewed
+* 💡: Pretrained Model
+* 🔍: Peer-reviewed
 ## Single-Cell Genomics (SCG) Models
 Papers that utilize Transformer models to analyze single-cell genomic data.
 
