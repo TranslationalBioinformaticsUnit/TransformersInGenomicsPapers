@@ -1,7 +1,6 @@
 # Transformers In Genomics Papers
 A curated repository of academic papers showcasing the use of Transformer models in genomics. This repository aims to guide researchers, data scientists, and enthusiasts in finding relevant literature and understanding the applications of Transformers in various genomic contexts.
 
-
 ## Table of Contents
 
 1. [Single-Cell Genomics (SCG) Models](#single-cell-genomics-scg-models)
