@@ -3,12 +3,12 @@ A curated repository of academic papers showcasing the use of Transformer models
 
 ## Summary Statistics
 
-|                | Original | Benchmark | Reviews |
-|----------------|---------:|----------:|--------:|
-| SCG            |         1|          1|       1 |
-| DNA            |         1|          1|       1 |
-| ST             |         1|          1|       1 |
-| Hybrid         |         1|          1|       1 |
+| Data Type      | Original Papers | Benchmarking Papers | Review/Perspective Papers |
+|----------------|----------------:|--------------------:|--------------------------:|
+| SCG            |               37|                    0|                         0 |
+| DNA            |                0|                    0|                         0 |
+| ST             |                0|                    0|                         0 |
+| Hybrid         |                0|                    0|                         0 |
 
 ## Table of Contents
 
