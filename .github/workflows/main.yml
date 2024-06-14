@@ -24,8 +24,6 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
         git add README.md
         git commit -m "Update summary statistics table"
         git push
