@@ -50,5 +50,5 @@ A curated repository of academic papers showcasing the use of Transformer models
 updated_readme_content = re.sub(r'## Summary Statistics.*?```markdown\n.*?\n```', summary_table, readme_content, flags=re.DOTALL)
 
 # Write the updated content back to README.md
-with open('README.md', 'w') as readme_file:
+with open('README1.md', 'w') as readme_file:
     readme_file.write(updated_readme_content)
