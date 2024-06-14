@@ -20,7 +20,7 @@ jobs:
 
     - name: Run script to update summary statistics
       run: |
-        python update_summary.py
+        python .github/update_summary.py
 
     - name: Commit and push changes
       run: |
