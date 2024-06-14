@@ -20,7 +20,7 @@ jobs:
 
     - name: Run script to update summary statistics
       run: |
-        pip install -r requirements.txt  # if you have any Python dependencies
+        # pip install -r requirements.txt  # if you have any Python dependencies
         python update_summary.py
 
     - name: Commit and push changes
