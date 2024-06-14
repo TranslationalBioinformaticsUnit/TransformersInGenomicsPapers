@@ -1,0 +1,32 @@
+name: Update Summary Statistics
+
+on:
+  push:
+    branches:
+      - main  # adjust branch as necessary
+
+jobs:
+  update_summary:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'  # adjust Python version as necessary
+
+    - name: Run script to update summary statistics
+      run: |
+        pip install -r requirements.txt  # if you have any Python dependencies
+        python update_summary.py
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        git commit -m "Update summary statistics table"
+        git push
