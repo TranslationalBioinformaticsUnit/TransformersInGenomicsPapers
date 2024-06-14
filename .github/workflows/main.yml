@@ -26,8 +26,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        pwd
-        git rm -f README.md
+        sudo git rm -f README.md
         git add README.md
         git commit -m "Update summary statistics table"
         git push
