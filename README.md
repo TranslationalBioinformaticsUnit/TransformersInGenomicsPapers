@@ -5,7 +5,7 @@ A curated repository of academic papers showcasing the use of Transformer models
 
 | Data Type                             | Original Papers | Benchmarking Papers | Review/Perspective Papers |
 |---------------------------------------|----------------:|--------------------:|--------------------------:|
-| Single-Cell Genomics (SCG)            |               37|                    3|                         0 |
+| Single-Cell Genomics (SCG)            |               37|                    3|                         1 |
 | DNA                                   |                0|                    0|                         0 |
 | Spatial Transcriptomics (ST)          |                0|                    0|                         0 |
 | Hybrid of SCG, DNA, and ST            |                0|                    0|                         0 |
@@ -89,13 +89,12 @@ Papers that utilize Transformer models to analyze single-cell genomic data.
 | [Reusability report: Learning the transcriptional grammar in single-cell RNA-sequencing data using transformers](https://www.nature.com/articles/s42256-023-00757-8). Sumeer Ahmad Khan et al. _Nature Machine Intelligence_ (2023)      | [GitHub Repository](https://github.com/TranslationalBioinformaticsUnit/scbert-reusability)     | scBERT | This paper focuses on evaluating the reusability and generalizability of the scBERT method, originally designed for cell-type annotation in single-cell RNA-sequencing data, beyond its initial datasets. It highlights the significant impact of cell-type distribution on scBERT's performance and introduces a subsampling technique to mitigate imbalanced data distribution, offering insights for optimizing transformer models in single-cell genomics.    | While scBERT can reproduce the main results in cell-type annotation, its performance is significantly affected by the distribution of cells per cell type, particularly struggling with novel cell types in imbalanced datasets. Addressing this distributional sensitivity is crucial, suggesting future work should focus on developing methods to handle class imbalance and leveraging domain knowledge to enhance transformer models in single-cell genomics. |
 | [Assessing the limits of zero-shot foundation models in single-cell biology](https://www.biorxiv.org/content/10.1101/2023.10.16.561085v2). Kasia Z. Kedzierska et al. _bioRxiv_ (2023) | [GitHub Repository](https://github.com/microsoft/zero-shot-scfoundation)    | Geneformer and scGPT  | The main focus of this paper is to rigorously evaluate the zero-shot performance of foundation models, specifically Geneformer and scGPT, in single-cell biology to determine their efficacy in tasks like cell type clustering and batch effect correction.   | Geneformer and scGPT exhibit inconsistent and often underwhelming performance in zero-shot settings for single-cell biology tasks like cell type clustering and batch effect correction, often falling behind simpler methods like scVI and highly variable gene selection. Pretraining these models on larger and more diverse datasets offers limited benefits, underscoring the need for more focused research to improve the robustness and utility of foundation models in single-cell biology.   |
 | [x](#)      | [x](#)     | [x](#) | x    | x |
-| [x](#)      | [x](#)     | [x](#) | x    | x |
-| [x](#)      | [x](#)     | [x](#) | x    | x |
+
 
 ### Review/Perspective Papers
-| 📄 Paper                                          | 💻 Code              | 🌟 Highlights/Main Focus                          | 📝 Remarks & Conclusion                |
-|---------------------------------------------------|----------------------|--------------------------------------------------|---------------------------------------|
-| [x](#)      | [x](#)     | x               | x |
+| 📄 Paper                                          |  🌟 Highlights/Main Focus                       | 📝 Remarks & Conclusion                |
+|---------------------------------------------------|--------------------------------------------------|---------------------------------------|
+| [Translating single-cell genomics into cell types](https://www.nature.com/articles/s42256-022-00600-6). Jesper N. Tegner. _Nature Machine Intelligence_ (2023)      | This paper emphasizes the successful adaptation of machine translation models, particularly transformers like BERT, for the task of cell type annotation in single-cell genomics. It highlights the development of scBERT, which leverages pretraining and self-supervised learning to create robust cell embeddings that are less sensitive to batch effects and capable of detecting subtle dependencies such as rare cell types.              | Despite demonstrating strong performance across diverse datasets and tasks, the paper acknowledges limitations, such as the need for embedding binning and the lack of integration with underlying biological processes like gene-regulatory networks. The authors suggest future research directions, including improving the generalization of embeddings to continuous values and developing more nuanced masking strategies. The paper concludes by noting the potential for transformers to be applied to other tasks in single-cell biology and anticipates growing interest in integrating AI methods beyond computer vision into bioinformatics and single-cell genomics. |
 
 ## DNA Models
 Papers focused on the application of Transformer models in DNA sequence analysis.
@@ -111,9 +110,9 @@ Papers focused on the application of Transformer models in DNA sequence analysis
 | [x](#)      | [x](#)     | [x](#) | x    | x |
 
 ### Review/Perspective Papers
-| 📄 Paper                                          | 💻 Code              | 🌟 Highlights/Main Focus                          | 📝 Remarks & Conclusion                |
-|---------------------------------------------------|----------------------|--------------------------------------------------|---------------------------------------|
-| [x](#)      | [x](#)     | x               | x |
+| 📄 Paper                                          |  🌟 Highlights/Main Focus                       | 📝 Remarks & Conclusion                |
+|---------------------------------------------------|--------------------------------------------------|---------------------------------------|
+| [x](#)       | x               | x |
 
 ## Spatial Transcriptomics (ST) Models
 Papers applying Transformer models to spatial transcriptomics data.
@@ -129,9 +128,9 @@ Papers applying Transformer models to spatial transcriptomics data.
 | [x](#)      | [x](#)     | [x](#) | x    | x |
 
 ### Review/Perspective Papers
-| 📄 Paper                                          | 💻 Code              | 🌟 Highlights/Main Focus                          | 📝 Remarks & Conclusion                |
-|---------------------------------------------------|----------------------|--------------------------------------------------|---------------------------------------|
-| [x](#)      | [x](#)     | x               | x |
+| 📄 Paper                                          |  🌟 Highlights/Main Focus                       | 📝 Remarks & Conclusion                |
+|---------------------------------------------------|--------------------------------------------------|---------------------------------------|
+| [x](#)     | x               | x |
 
 ## Hybrids of SCG, DNA, and ST Models
 Papers that combine approaches and modalities from SCG, DNA, and ST using Transformers.
@@ -147,8 +146,8 @@ Papers that combine approaches and modalities from SCG, DNA, and ST using Transf
 | [x](#)      | [x](#)     | [x](#) | x    | x |
 
 ### Review/Perspective Papers
-| 📄 Paper                                          | 💻 Code              | 🌟 Highlights/Main Focus                          | 📝 Remarks & Conclusion                |
-|---------------------------------------------------|----------------------|--------------------------------------------------|---------------------------------------|
-| [x](#)      | [x](#)     | x               | x |
+| 📄 Paper                                          |  🌟 Highlights/Main Focus                       | 📝 Remarks & Conclusion                |
+|---------------------------------------------------|--------------------------------------------------|---------------------------------------|
+| [x](#)      | x               | x |
 
 
