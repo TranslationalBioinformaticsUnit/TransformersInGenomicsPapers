@@ -6,7 +6,7 @@ A curated repository of academic papers showcasing the use of Transformer models
 | Data Type                             | Original Papers | Benchmarking Papers | Review/Perspective Papers |
 |---------------------------------------|----------------:|--------------------:|--------------------------:|
 | Single-Cell Genomics (SCG)            |               39|                    4|                         1 |
-| DNA                                   |                0|                    0|                         0 |
+| DNA                                   |                0|                    0|                         1 |
 | Spatial Transcriptomics (ST)          |                0|                    0|                         0 |
 | Hybrid of SCG, DNA, and ST            |                0|                    0|                         0 |
 
@@ -115,7 +115,7 @@ Papers focused on the application of Transformer models in DNA sequence analysis
 ### Review/Perspective Papers
 | 📄 Paper                                          |  🌟 Highlights/Main Focus                       | 📝 Remarks & Conclusion                |
 |---------------------------------------------------|--------------------------------------------------|---------------------------------------|
-| [x](#)       | x               | x |
+| [To Transformers and Beyond: Large Language Models for the Genome](https://arxiv.org/abs/2311.07621)       | This paper explores the revolutionary impact of Large Language Models (LLMs) on genomics, focusing on their capacity to tackle the complexities of DNA, RNA, and single-cell sequencing data. By adapting the transformer architecture, traditionally used in natural language processing, LLMs offer a novel approach to uncover genomic patterns, predict functional elements, and enhance genomic data interpretation. The review delves into transformer-hybrid models and emerging architectures beyond transformers, outlining their applications, benefits, and limitations in genomic data analysis. The goal is to bridge gaps between computational biology and machine learning in the evolving field of genomics. | The paper emphasizes that while transformer-based LLMs have significantly advanced genomic modeling, challenges like scaling to larger contexts and maintaining interpretability remain. Innovations such as the Hyena layer promise to address computational inefficiencies, further pushing the boundaries of genomic data analysis. Future research should focus on improving context length, integrating multi-omic data, and refining interpretability to fully realize the potential of LLMs. Overall, the review highlights the transformative potential of these models in genomics, pointing toward an exciting future for computational biology.|
 
 ## Spatial Transcriptomics (ST) Models
 Papers applying Transformer models to spatial transcriptomics data.
