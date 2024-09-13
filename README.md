@@ -6,7 +6,7 @@ A curated repository of academic papers showcasing the use of Transformer models
 | Data Type                             | Original Papers | Benchmarking Papers | Review/Perspective Papers |
 |---------------------------------------|----------------:|--------------------:|--------------------------:|
 | Single-Cell Genomics (SCG)            |               39|                    4|                         1 |
-| DNA                                   |                0|                    0|                         1 |
+| DNA                                   |                0|                    1|                         1 |
 | Spatial Transcriptomics (ST)          |                0|                    0|                         0 |
 | Hybrid of SCG, DNA, and ST            |                0|                    0|                         0 |
 
