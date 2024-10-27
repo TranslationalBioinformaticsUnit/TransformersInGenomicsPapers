@@ -1,0 +1,11 @@
+numpy
+scanpy
+squidpy
+torch
+scikit-learn
+scipy
+pandas
+matplotlib
+seaborn
+ipython
+datasets
