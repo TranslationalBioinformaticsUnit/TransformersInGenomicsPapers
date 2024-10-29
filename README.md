@@ -6,8 +6,8 @@ A curated repository of academic papers showcasing the use of Transformer models
 | Data Type                             | Original Papers | Benchmarking Papers | Review/Perspective Papers |
 |---------------------------------------|----------------:|--------------------:|--------------------------:|
 | Single-Cell Genomics (SCG)            |               39|                    4|                         1 |
-| DNA                                   |                0|                    1|                         1 |
-| Spatial Transcriptomics (ST)          |                0|                    0|                         0 |
+| DNA                                   |               12|                    1|                         2 |
+| Spatial Transcriptomics (ST)          |               11|                    0|                         0 |
 | Hybrid of SCG, DNA, and ST            |                0|                    0|                         0 |
 
 ## Table of Contents
@@ -155,17 +155,6 @@ Papers applying Transformer models to spatial transcriptomics data.
 | stEnTrans     | [stEnTrans: Transformer-based deep learning for spatial transcriptomics enhancement](https://github.com/shuailinxue/stEnTrans). Shuailin Xue et al. _bioRxiv_ (2024) | [GitHub Repository](https://github.com/shuailinxue/stEnTrans) | Transformer                 | Self-supervised model that enhances gene expression in unmeasured tissue areas, with superior accuracy and resolution.       | Not specified      | 6                 | Mean Squared Error   | Gene expression interpolation, spatial pattern discovery, biological pathway enrichment analysis             |
 | SpaDiT        | [SpaDiT: Diffusion Transformer for Spatial Gene Expression Prediction using scRNA-seq](https://github.com/lllxxyyy-lxy/SpaDiT). Xiaoyu Li et al. _Briefings in Bioinformatics_ (2024) | [GitHub Repository](https://github.com/lllxxyyy-lxy/SpaDiT) | Transformer-based diffusion model | Integrates scRNA-seq data for spatial transcriptomics gene prediction, achieving state-of-the-art accuracy and maintaining spatial gene expression patterns |  Not specified   | 10                | MSE, JS divergence, Structural Similarity Index Measure (SSIM) | Spatial gene expression prediction, spatial pattern restoration, robustness analysis across data sparsity |
 | stFormer      | [stFormer: a foundation model for spatial transcriptomics](https://doi.org/10.1101/2024.09.27.615337). Shenghao Cao et al. _bioRxiv_ (2024) | [GitHub Repository](https://github.com/csh3/stFormer) | Transformer with cross-attention for ligand-receptor info | Integrates ligand-receptor interaction data for better spatial gene clustering, hierarchy and membership encoding in gene networks | ~580K | 2                 | Mean Squared Error (MSE) | Cell-type clustering, ligand-receptor interaction inference, receptor-dependent gene network analysis, in silico perturbation simulation |
-
-
-
-
-
-
-
-
-
-
-
 
 
 
