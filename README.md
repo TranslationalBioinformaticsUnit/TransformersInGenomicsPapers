@@ -152,6 +152,24 @@ Papers applying Transformer models to spatial transcriptomics data.
 | THItoGene              | [THItoGene: A deep learning method for predicting spatial transcriptomics from histological images](https://doi.org/10.1093/bib/bbad464). _Briefings in Bioinformatics_ (2024) | [GitHub Repository](https://github.com/yrjia1015/THItoGene)   | CNN, Capsule Network, ViT, GAT  | Predicts spatial gene expression from histopathological images, utilizing dynamic convolution and capsule networks for enhanced prediction accuracy. | Not specified  | 2+ | MSE, ZINB loss, PCC | Gene expression prediction, spatial domain identification, tumor-associated gene detection. |
 | CellPLM 💡🔍        | [CellPLM: Pre-training of Cell Language Model Beyond Single Cells](https://openreview.net/pdf?id=BKXvPDekud). Hongzhi Wen et al. _International Conference on Learning Representations (ICLR)_ (2024) |       [GitHub Repository](https://github.com/OmicsML/CellPLM)   | Transformer | The framework marks the first of its kind, encoding inter-cell relations, harnessing spatially-resolved transcriptomic data, and adopts a decent prior distribution. | 9M scRNA-seq + 2M spatial | 3 | Masked language modeling with mean squared error loss | Zero-shot clustering; scRNA-seq denoising; Spatial transcriptomic imputation; Cell type annotation; Perturbation prediction |
 | M2ORT                 | [M2ORT: Many-To-One Regression Transformer for Spatial Transcriptomics Prediction from Histopathology Images](https://doi.org/10.48550/arXiv.2401.10608v2). _arXiv_ (2024) | [GitHub Repository](https://github.com/Dootmaan/M2ORT)   | Transformer  | Multi-scale many-to-one regression transformer that leverages multiple pathology images to predict gene expressions for spatial transcriptomics. | Not specified  | 3 | MSE, PCC | Spatial transcriptomics prediction, gene expression prediction, cancer subtype analysis. |
+| stEnTrans     | [stEnTrans: Transformer-based deep learning for spatial transcriptomics enhancement](https://github.com/shuailinxue/stEnTrans). Shuailin Xue et al. _bioRxiv_ (2024) | [GitHub Repository](https://github.com/shuailinxue/stEnTrans) | Transformer                 | Self-supervised model that enhances gene expression in unmeasured tissue areas, with superior accuracy and resolution.       | Not specified      | 6                 | Mean Squared Error   | Gene expression interpolation, spatial pattern discovery, biological pathway enrichment analysis             |
+| SpaDiT        | [SpaDiT: Diffusion Transformer for Spatial Gene Expression Prediction using scRNA-seq](https://github.com/lllxxyyy-lxy/SpaDiT). Xiaoyu Li et al. _Briefings in Bioinformatics_ (2024) | [GitHub Repository](https://github.com/lllxxyyy-lxy/SpaDiT) | Transformer-based diffusion model | Integrates scRNA-seq data for spatial transcriptomics gene prediction, achieving state-of-the-art accuracy and maintaining spatial gene expression patterns |  Not specified   | 10                | MSE, JS divergence, Structural Similarity Index Measure (SSIM) | Spatial gene expression prediction, spatial pattern restoration, robustness analysis across data sparsity |
+| stFormer      | [stFormer: a foundation model for spatial transcriptomics](https://doi.org/10.1101/2024.09.27.615337). Shenghao Cao et al. _bioRxiv_ (2024) | [GitHub Repository](https://github.com/csh3/stFormer) | Transformer with cross-attention for ligand-receptor info | Integrates ligand-receptor interaction data for better spatial gene clustering, hierarchy and membership encoding in gene networks | ~580K | 2                 | Mean Squared Error (MSE) | Cell-type clustering, ligand-receptor interaction inference, receptor-dependent gene network analysis, in silico perturbation simulation |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
