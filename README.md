@@ -8,7 +8,7 @@ A curated repository of academic papers showcasing the use of Transformer models
 | Single-Cell Genomics (SCG)            |               39|                    4|                         1 |
 | DNA                                   |               12|                    1|                         2 |
 | Spatial Transcriptomics (ST)          |               11|                    0|                         0 |
-| Hybrid of SCG, DNA, and ST            |                0|                    0|                         0 |
+| Hybrid of SCG, DNA, and ST            |                8|                    0|                         0 |
 
 ## Table of Contents
 
@@ -178,9 +178,47 @@ Papers applying Transformer models to spatial transcriptomics data.
 Papers that combine approaches and modalities from SCG, DNA, and ST using Transformers.
 
 ### Original Papers
-| 🧠 Model               | 📄 Paper                                          | 💻 Code              | 🛠️ Architecture           | 🌟 Highlights/Main Focus                          | 🧬 No. of Cells | 📊 No. of Datasets | 🎯 Loss Function(s)       | 📝 Downstream Tasks/Evaluations        |
-|------------------------|---------------------------------------------------|----------------------|---------------------------|--------------------------------------------------|-----------------|-------------------|--------------------------|---------------------------------------|
-| x        | [x](#)      | [x](#)     | x               |x               | x          | x              | x          | x |
+| 🧠 Model               | 📄 Paper                                          | 💻 Code              | 🛠️ Architecture           | 🌟 Highlights/Main Focus    | 🔬 Omics         | 🧬 No. of Cells/Genomes | 📊 No. of Datasets | 🎯 Loss Function(s)       | 📝 Downstream Tasks/Evaluations        |
+|------------------------|---------------------------------------------------|----------------------|---------------------------|--------------------------------------------------|------------------|--------------------|-------------------|--------------------------|---------------------------------------|
+| DeepMAPS      | [DeepMAPS: Heterogeneous Graph Transformer for Biological Network Inference](https://doi.org/10.1038/s41467-023-36559-0). Anjun Ma et al. _Nature Communications_ (2023) | [GitHub Repository](https://github.com/DeepMAPS-repo) | Heterogeneous graph transformer | Integrates scMulti-omics data for accurate cell-type-specific biological network inference, leveraging multi-head attention for gene-cell interaction modeling | DNA, RNA         | 3,009–32,029       | 10                | Mean Squared Error (MSE) | Cell clustering, gene regulatory network (GRN) inference, cell-cell communication prediction, cross-dataset robustness tests |
+| Transformer DeepLncLoc | [Predicting gene expression levels from DNA sequences and post-transcriptional information with transformers](https://doi.org/10.1016/j.cmpb.2022.107035). Vittorio Pipoli et al. _Computer Methods and Programs in Biomedicine_ (2022) | [GitHub Repository](https://github.com/geneexpressionpolito/Predicting-gene-expression-levels-from-DNA-sequences-and-post-transcriptional-info-with-transformers) | Transformer with DeepLncLoc embedding | Predicts gene expression using DNA sequence and post-transcriptional data; enhances gene expression accuracy with transcription factors and mRNA stability data | DNA, RNA     | 18,000 genes            | 1                 | Mean Squared Error (MSE) | Gene expression prediction; comparative accuracy analysis against CNN-based models like Xpresso |
+| scMoFormer | [Single-Cell Multimodal Prediction via Transformers](https://doi.org/10.1145/3583780.3615061). Wenzhuo Tang et al. _CIKM '23_ (2023) | [GitHub Repository](https://github.com/OmicsML/scMoFormer)                               | Graph Transformer + Transformers | Uses multimodal data with gene, protein, and cell embeddings for improved prediction in multimodal single-cell analysis | RNA, DNA, ST, Protein | ~70K cells            | 2                 | RMSE, MAE, Pearson Correlation | Surface protein abundance prediction, cross-modality integration, large-scale multimodal tasks |
+| scmFormer | [scmFormer Integrates Large-Scale Single-Cell Proteomics and Transcriptomics Data](https://doi.org/10.1002/advs.202307835). Jing Xu et al. _Advanced Science_ (2024) | [GitHub Repository](https://github.com/scmformer-repo)                               | Multi-task Transformer | Integrates multi-batch paired multi-omics data, achieving high accuracy in cell-type label transfer across omics | RNA, DNA, Protein, ST | 1.48M cells           | 24                | MSE, Cross-entropy  loss       | Cell-type label transfer, gene/protein prediction, COVID-19 dataset integration, spatial omics analysis |
+| scGPT 💡🔍          | [scGPT: toward building a foundation model for single-cell multi-omics using generative AI](https://www.nature.com/articles/s41592-024-02201-0). Haotian Cui et al. _Nature Methods_ (2024) |  [GitHub Repository](https://github.com/bowang-lab/scGPT)       | Transformer | A foundation model designed for single-cell multi-omics aimed to deepen the understanding of biological data and improve performance in tasks like cell type annotation and integration. | 33M | 441 | Mean square error; Cosine similarity; Cross entropy loss | Cell type annotation; Perturbation response prediction; Multi-batch integration; Multi-omic integration; Gene regulatory network inference |
+| MarsGT 🔍         | [MarsGT: Multi-omics analysis for rare population inference using single-cell graph transformer](https://www.nature.com/articles/s41467-023-44570-8). Xiaoying Wang et al. _Nature Communications_ (2024) | [GitHub Repository](https://github.com/OSU-BMBL/marsgt)        | Graph Transformer | Identifying rare cell populations in single-cell multi-omics, with superior performance and insights for early detection and therapeutic intervention strategies | 750K | 550 | KL divergence, cosign similarity, and regression loss | Construct enhancer gene regulatory networks |
+| Pathformer  | [Pathformer: A Biological Pathway Informed Transformer for Disease Diagnosis and Prognosis Using Multi-Omics Data](https://doi.org/10.1093/bioinformatics/btae316). Xiaofan Liu et al. _Bioinformatics_ (2024) | [GitHub Repository](https://github.com/lulab/Pathformer)                               | Transformer with criss-cross attention for pathway crosstalk | Utilizes multi-omics data with pathway crosstalk to improve disease classification accuracy, with benchmarked performance in cancer diagnosis and survival prediction | RNA, DNA, Protein       | 1.48M cells       | 25                | Cross-entropy loss         | Cancer survival prediction, staging, early diagnosis, drug response prediction, pathway interpretation |
+| MOT    | [MOT: a Multi-Omics Transformer for multiclass classification tumour types predictions](https://doi.org/10.1101/2022.11.14.516459). Mazid Abiodoun Osseni et al. _bioRxiv_ (2022) | [GitHub Repository](https://github.com/dizam92/multiomic_predictions)                   | Transformer | Integrates five omics for multi-class cancer classification, handling missing views with robust performance across tumor types | RNA, DNA, Protein, miRNA, CNVs | 33 tumor types            | TCGA Pan-Cancer dataset | Cross-entropy loss         | Multi-class tumor classification, attention-based interpretability, robust performance with missing data |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Benchmarking Papers
 | 📄 Paper                                          | 💻 Code              | 🧠 Benchmarking Models           | 🌟 Main Focus                          | 📝 Results & Insights |
